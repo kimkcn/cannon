@@ -230,9 +230,9 @@ def report(task_id=False):
     # 生成excel
     build_excel_sheet(file_path)
 
-    my_email_from = "ops@gegejia.com"
+    my_email_from = ""
     my_from_name = "ops"
-    my_email_to = "sre@gegejia.com"
+    my_email_to = ""
     my_to_name = "sre"
     # 邮件标题
     my_email_subject = '运维巡检周报  ' + str(now_date)
